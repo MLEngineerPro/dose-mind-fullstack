@@ -1,0 +1,168 @@
+2026-03-15 10:19:26,299 - INFO - [*] Inicializando ChromaDB...
+2026-03-15 10:19:26,410 - INFO - [+] Colección 'base_conocimiento' cargada (1242 documentos)
+2026-03-15 10:19:27,299 - INFO - [+] ChatRAGHibrido listo.
+2026-03-15 10:19:32,121 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 10:19:32,128 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 10:19:37,744 - INFO - Pregunta: contraindicaciones de la hidrocortisona
+2026-03-15 10:19:37,744 - INFO - Modelo: gpt-oss:120b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 10:19:37,764 - INFO - Pregunta: contraindicaciones de la hidrocortisona
+2026-03-15 10:19:37,766 - INFO - Modelo: llama3.2:latest | Temperatura: 0.5 | Instancia: local
+2026-03-15 10:20:06,184 - INFO - Métricas: {'tokens_prompt': 1799, 'tokens_respuesta': 3737, 'tiempo_total_s': 28.02}
+2026-03-15 10:20:26,011 - INFO - Métricas: {'tokens_prompt': 1991, 'tokens_respuesta': 587, 'tiempo_total_s': 48.24}
+2026-03-15 10:28:49,899 - INFO - [*] Inicializando ChromaDB...
+2026-03-15 10:28:49,977 - INFO - [+] Colección 'base_conocimiento' cargada (1242 documentos)
+2026-03-15 10:28:50,785 - INFO - [+] ChatRAGHibrido listo.
+2026-03-15 10:29:47,611 - INFO - Modelo seleccionado gpt-oss:120b-cloud
+2026-03-15 10:29:47,611 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 10:29:47,616 - INFO - Modelo seleccionado llama3.2:latest
+2026-03-15 10:29:47,620 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 10:29:52,250 - INFO - Pregunta: contraindicaciones de la hidrocortisona
+2026-03-15 10:29:52,250 - INFO - Modelo: gpt-oss:120b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 10:29:52,258 - INFO - Pregunta: contraindicaciones de la hidrocortisona
+2026-03-15 10:29:52,258 - INFO - Modelo: llama3.2:latest | Temperatura: 0.5 | Instancia: local
+2026-03-15 10:30:09,149 - INFO - Métricas: {'tokens_prompt': 1799, 'tokens_respuesta': 1961, 'tiempo_total_s': 16.6}
+2026-03-15 10:30:27,420 - INFO - Métricas: {'tokens_prompt': 1991, 'tokens_respuesta': 427, 'tiempo_total_s': 35.16}
+2026-03-15 10:33:47,334 - INFO - [*] Inicializando ChromaDB...
+2026-03-15 10:33:47,404 - INFO - [+] Colección 'base_conocimiento' cargada (1242 documentos)
+2026-03-15 10:33:48,199 - INFO - [+] ChatRAGHibrido listo.
+2026-03-15 10:34:21,368 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 10:34:21,374 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 10:34:26,715 - INFO - Pregunta: contraindicaciones de la hidrocortisona
+2026-03-15 10:34:26,715 - INFO - Modelo: gemma3:27b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 10:34:26,718 - INFO - Pregunta: contraindicaciones de la hidrocortisona
+2026-03-15 10:34:26,720 - INFO - Modelo: qwen3.5:9b | Temperatura: 0.5 | Instancia: local
+2026-03-15 10:34:34,433 - INFO - Métricas: {'tokens_prompt': 1807, 'tokens_respuesta': 344, 'tiempo_total_s': 7.23}
+2026-03-15 10:45:03,670 - INFO - **** [*] Inicializando ChromaDB...
+2026-03-15 10:45:03,736 - INFO - **** [+] Colección 'base_conocimiento' cargada (1242 documentos)
+2026-03-15 10:45:04,624 - INFO - **** [+] ChatRAGHibrido listo.
+2026-03-15 10:50:28,402 - INFO - **** [*] Inicializando ChromaDB...
+2026-03-15 10:50:28,485 - INFO - **** [+] Colección 'base_conocimiento' cargada (1242 documentos)
+2026-03-15 10:50:30,320 - INFO - **** [+] ChatRAGHibrido listo.
+2026-03-15 10:50:36,672 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 10:50:36,684 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 10:50:41,164 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona en menores de edad
+2026-03-15 10:50:41,164 - INFO - **** Modelo: cogito-2.1:671b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 10:50:41,170 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona en menores de edad
+2026-03-15 10:50:41,170 - INFO - **** Modelo: cogito-2.1:671b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 10:50:52,649 - INFO - **** Métricas: {'tokens_prompt': 2090, 'tokens_respuesta': 643, 'tiempo_total_s': 10.92}
+2026-03-15 10:50:52,658 - INFO -  **** Termina la inferencia con el modelo cogito-2.1:671b-cloud, tiempo total: 10.92
+2026-03-15 10:50:54,364 - INFO - **** Métricas: {'tokens_prompt': 2090, 'tokens_respuesta': 755, 'tiempo_total_s': 12.33}
+2026-03-15 10:50:54,364 - INFO -  **** Termina la inferencia con el modelo cogito-2.1:671b-cloud, tiempo total: 12.33
+2026-03-15 10:51:49,255 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 10:51:49,264 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 10:51:49,751 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona en menores de edad
+2026-03-15 10:51:49,752 - INFO - **** Modelo: qwen3.5:397b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 10:51:49,845 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona en menores de edad
+2026-03-15 10:51:49,853 - INFO - **** Modelo: qwen3.5:4b | Temperatura: 0.5 | Instancia: local
+2026-03-15 10:52:10,964 - INFO - **** Métricas: {'tokens_prompt': 1953, 'tokens_respuesta': 3269, 'tiempo_total_s': 20.82}
+2026-03-15 10:52:10,967 - INFO -  **** Termina la inferencia con el modelo qwen3.5:397b-cloud, tiempo total: 20.82
+2026-03-15 11:15:44,224 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:15:50,804 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona intectable
+2026-03-15 11:15:50,804 - INFO - **** Modelo: cogito-2.1:671b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:15:59,355 - INFO - **** Métricas: {'tokens_prompt': 1822, 'tokens_respuesta': 470, 'tiempo_total_s': 8.27}
+2026-03-15 11:15:59,357 - INFO -  **** Termina la inferencia con el modelo cogito-2.1:671b-cloud, tiempo total: 8.27
+2026-03-15 11:16:08,474 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:16:09,004 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona intectable
+2026-03-15 11:16:09,010 - INFO - **** Modelo: devstral-2:123b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:16:11,296 - INFO - **** Métricas: {'tokens_prompt': 1710, 'tokens_respuesta': 148, 'tiempo_total_s': 1.91}
+2026-03-15 11:16:11,296 - INFO -  **** Termina la inferencia con el modelo devstral-2:123b-cloud, tiempo total: 1.91
+2026-03-15 11:17:06,657 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:17:07,074 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona intectable
+2026-03-15 11:17:07,080 - INFO - **** Modelo: cogito-2.1:671b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:17:15,953 - INFO - **** Métricas: {'tokens_prompt': 1822, 'tokens_respuesta': 508, 'tiempo_total_s': 8.52}
+2026-03-15 11:17:15,954 - INFO -  **** Termina la inferencia con el modelo cogito-2.1:671b-cloud, tiempo total: 8.52
+2026-03-15 11:17:44,249 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:17:44,699 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona intectable en menores de 10 años
+2026-03-15 11:17:44,703 - INFO - **** Modelo: deepseek-v3.1:671b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:18:01,228 - INFO - **** Métricas: {'tokens_prompt': 2063, 'tokens_respuesta': 445, 'tiempo_total_s': 16.23}
+2026-03-15 11:18:01,228 - INFO -  **** Termina la inferencia con el modelo deepseek-v3.1:671b-cloud, tiempo total: 16.23
+2026-03-15 11:18:17,238 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:18:17,836 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona intectable en menores de 10 años
+2026-03-15 11:18:17,837 - INFO - **** Modelo: gemini-3-flash-preview-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:18:34,432 - INFO - **** Métricas: {'tokens_prompt': 1980, 'tokens_respuesta': 2772, 'tiempo_total_s': 16.27}
+2026-03-15 11:18:34,433 - INFO -  **** Termina la inferencia con el modelo gemini-3-flash-preview-cloud, tiempo total: 16.27
+2026-03-15 11:18:50,449 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:18:50,864 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona en menores de 1 año
+2026-03-15 11:18:50,867 - INFO - **** Modelo: gpt-oss:120b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:19:02,934 - INFO - **** Métricas: {'tokens_prompt': 1725, 'tokens_respuesta': 1644, 'tiempo_total_s': 11.73}
+2026-03-15 11:19:02,936 - INFO -  **** Termina la inferencia con el modelo gpt-oss:120b-cloud, tiempo total: 11.73
+2026-03-15 11:19:11,104 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:19:11,484 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona en menores de 1 año
+2026-03-15 11:19:11,487 - INFO - **** Modelo: gemma3:27b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:19:15,492 - INFO - **** Métricas: {'tokens_prompt': 1727, 'tokens_respuesta': 177, 'tiempo_total_s': 3.68}
+2026-03-15 11:19:15,492 - INFO -  **** Termina la inferencia con el modelo gemma3:27b-cloud, tiempo total: 3.68
+2026-03-15 11:20:33,589 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:20:34,099 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona
+2026-03-15 11:20:34,106 - INFO - **** Modelo: gemma3:12b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:20:39,557 - INFO - **** Métricas: {'tokens_prompt': 1807, 'tokens_respuesta': 335, 'tiempo_total_s': 5.18}
+2026-03-15 11:20:39,557 - INFO -  **** Termina la inferencia con el modelo gemma3:12b-cloud, tiempo total: 5.18
+2026-03-15 11:21:01,707 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:21:02,176 - INFO - **** Pregunta: contraindicaciones de la hidrocortisona
+2026-03-15 11:21:02,176 - INFO - **** Modelo: mistral-large-3:675b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:21:28,362 - INFO - **** Métricas: {'tokens_prompt': 1879, 'tokens_respuesta': 1485, 'tiempo_total_s': 25.84}
+2026-03-15 11:21:28,362 - INFO -  **** Termina la inferencia con el modelo mistral-large-3:675b-cloud, tiempo total: 25.84
+2026-03-15 11:27:17,416 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:27:21,034 - INFO - **** Pregunta: como se debe tomar la NEVIRAPINA
+2026-03-15 11:27:21,034 - INFO - **** Modelo: deepseek-v3.1:671b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:27:32,776 - INFO - **** Métricas: {'tokens_prompt': 2075, 'tokens_respuesta': 503, 'tiempo_total_s': 11.22}
+2026-03-15 11:27:32,776 - INFO -  **** Termina la inferencia con el modelo deepseek-v3.1:671b-cloud, tiempo total: 11.22
+2026-03-15 11:27:58,649 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:27:59,156 - INFO - **** Pregunta: como se debe tomar la NEVIRAPINA
+2026-03-15 11:27:59,157 - INFO - **** Modelo: gemma3:12b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:28:04,827 - INFO - **** Métricas: {'tokens_prompt': 1919, 'tokens_respuesta': 386, 'tiempo_total_s': 5.33}
+2026-03-15 11:28:04,827 - INFO -  **** Termina la inferencia con el modelo gemma3:12b-cloud, tiempo total: 5.33
+2026-03-15 11:29:12,377 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:29:12,761 - INFO - **** Pregunta: como se debe tomar la NEVIRAPINA
+2026-03-15 11:29:12,761 - INFO - **** Modelo: gemma3:27b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:29:23,191 - INFO - **** Métricas: {'tokens_prompt': 1919, 'tokens_respuesta': 439, 'tiempo_total_s': 10.13}
+2026-03-15 11:29:23,191 - INFO -  **** Termina la inferencia con el modelo gemma3:27b-cloud, tiempo total: 10.13
+2026-03-15 11:30:47,925 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:30:48,392 - INFO - **** Pregunta: como se debe tomar la NEVIRAPINA
+2026-03-15 11:30:48,394 - INFO - **** Modelo: gpt-oss:120b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:31:04,142 - INFO - **** Métricas: {'tokens_prompt': 1887, 'tokens_respuesta': 1981, 'tiempo_total_s': 15.46}
+2026-03-15 11:31:04,142 - INFO -  **** Termina la inferencia con el modelo gpt-oss:120b-cloud, tiempo total: 15.46
+2026-03-15 11:40:47,435 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:40:51,800 - INFO - **** Pregunta: que debo tener en ceunta al tomar NICOTINAMIDA
+2026-03-15 11:40:51,812 - INFO - **** Modelo: deepseek-v3.1:671b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:41:21,368 - INFO - **** Métricas: {'tokens_prompt': 1514, 'tokens_respuesta': 869, 'tiempo_total_s': 29.21}
+2026-03-15 11:41:21,369 - INFO -  **** Termina la inferencia con el modelo deepseek-v3.1:671b-cloud, tiempo total: 29.21
+2026-03-15 11:43:11,305 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:43:11,812 - INFO - **** Pregunta: al tomar NICOTINAMIDA que otros medicamentos no debo tomar?
+2026-03-15 11:43:11,815 - INFO - **** Modelo: deepseek-v3.2-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:43:22,966 - INFO - **** Métricas: {'tokens_prompt': 1210, 'tokens_respuesta': 441, 'tiempo_total_s': 10.82}
+2026-03-15 11:43:22,968 - INFO -  **** Termina la inferencia con el modelo deepseek-v3.2-cloud, tiempo total: 10.82
+2026-03-15 11:46:00,696 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:46:01,166 - INFO - **** Pregunta: al tomar NICOTINAMIDA que otros medicamentos no debo tomar?
+2026-03-15 11:46:01,166 - INFO - **** Modelo: deepseek-v3.1:671b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:46:33,192 - INFO - **** Métricas: {'tokens_prompt': 1210, 'tokens_respuesta': 454, 'tiempo_total_s': 16.28}
+2026-03-15 11:46:33,195 - INFO -  **** Termina la inferencia con el modelo deepseek-v3.1:671b-cloud, tiempo total: 16.28
+2026-03-15 11:46:49,529 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:46:49,984 - INFO - **** Pregunta: tomar hidrocortisona
+2026-03-15 11:46:49,986 - INFO - **** Modelo: devstral-2:123b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:46:59,926 - INFO - **** Métricas: {'tokens_prompt': 1777, 'tokens_respuesta': 817, 'tiempo_total_s': 9.63}
+2026-03-15 11:46:59,927 - INFO -  **** Termina la inferencia con el modelo devstral-2:123b-cloud, tiempo total: 9.63
+2026-03-15 11:47:19,331 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:47:19,808 - INFO - **** Pregunta: al tomar NICOTINAMIDA que otros medicamentos no debo tomar?
+2026-03-15 11:47:19,820 - INFO - **** Modelo: devstral-2:123b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:47:21,514 - INFO - **** Métricas: {'tokens_prompt': 1184, 'tokens_respuesta': 86, 'tiempo_total_s': 1.35}
+2026-03-15 11:47:21,514 - INFO -  **** Termina la inferencia con el modelo devstral-2:123b-cloud, tiempo total: 1.35
+2026-03-15 11:47:52,274 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:47:52,764 - INFO - **** Pregunta: al tomar NICOTINAMIDA que otros medicamentos no debo tomar?
+2026-03-15 11:47:52,767 - INFO - **** Modelo: mistral-large-3:675b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:48:00,779 - INFO - **** Métricas: {'tokens_prompt': 1184, 'tokens_respuesta': 414, 'tiempo_total_s': 7.7}
+2026-03-15 11:48:00,779 - INFO -  **** Termina la inferencia con el modelo mistral-large-3:675b-cloud, tiempo total: 7.7
+2026-03-15 11:48:48,042 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:48:48,543 - INFO - **** Pregunta: Que es el salbutamol y como lo debo tomar
+2026-03-15 11:48:48,543 - INFO - **** Modelo: mistral-large-3:675b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:49:08,421 - INFO - **** Métricas: {'tokens_prompt': 1837, 'tokens_respuesta': 1379, 'tiempo_total_s': 19.52}
+2026-03-15 11:49:08,421 - INFO -  **** Termina la inferencia con el modelo mistral-large-3:675b-cloud, tiempo total: 19.52
+2026-03-15 11:49:31,640 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:49:32,142 - INFO - **** Pregunta: Que es el salbutamol y como lo debo tomar
+2026-03-15 11:49:32,145 - INFO - **** Modelo: deepseek-v3.2-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:49:53,457 - INFO - **** Métricas: {'tokens_prompt': 1862, 'tokens_respuesta': 1234, 'tiempo_total_s': 20.91}
+2026-03-15 11:49:53,457 - INFO -  **** Termina la inferencia con el modelo deepseek-v3.2-cloud, tiempo total: 20.91
+2026-03-15 11:52:01,232 - INFO - **** Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-15 11:52:01,774 - INFO - **** Pregunta: Que es el salbutamol y como lo debo tomar
+2026-03-15 11:52:01,778 - INFO - **** Modelo: qwen3.5:397b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-15 11:52:35,535 - INFO - **** Métricas: {'tokens_prompt': 1793, 'tokens_respuesta': 3540, 'tiempo_total_s': 33.43}
+2026-03-15 11:52:35,536 - INFO -  **** Termina la inferencia con el modelo qwen3.5:397b-cloud, tiempo total: 33.43

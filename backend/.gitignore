@@ -1,0 +1,6 @@
+.env
+src/__pycache__
+.vscode
+src/__pycache__/sqlite_functions.cpython-312.pyc
+src/__pycache__/
+__pycache__/

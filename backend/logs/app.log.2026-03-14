@@ -1,0 +1,100 @@
+2026-03-14 12:18:02,218 - INFO - [*] Inicializando sistema de RAG Híbrido...
+2026-03-14 12:18:03,275 - INFO - [+] Base de datos local conectada, base_conocimiento (1242 documentos)
+2026-03-14 12:18:03,275 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 12:18:04,432 - INFO - Buscando respuestas con deepseek-v3.1:671b, temperatura: 0.5 en la instancia: nube
+2026-03-14 12:18:21,846 - INFO - Respuesta completa recibida de la nube.  model='deepseek-v3.1:671b' created_at='2026-03-14T17:18:17.364922577Z' done=True done_reason='stop' total_duration=17059942809 load_duration=None prompt_eval_count=2022 prompt_eval_duration=None eval_count=519 eval_duration=None message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None) logprobs=None
+2026-03-14 12:26:10,084 - INFO - [*] Inicializando sistema de RAG Híbrido...
+2026-03-14 12:26:11,165 - INFO - [+] Base de datos local conectada, base_conocimiento (1242 documentos)
+2026-03-14 12:26:11,168 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 12:26:15,251 - INFO - Buscando respuestas con gpt-oss:120b-cloud, temperatura: 0.5 en la instancia: nube
+2026-03-14 12:27:06,525 - INFO - [*] Inicializando sistema de RAG Híbrido...
+2026-03-14 12:27:07,595 - INFO - [+] Base de datos local conectada, base_conocimiento (1242 documentos)
+2026-03-14 12:27:07,600 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 12:27:08,752 - INFO - Buscando respuestas con gpt-oss:120b-cloud, temperatura: 0.5 en la instancia: nube
+2026-03-14 12:27:15,996 - DEBUG - 
+Respuesta completa recibida de la nube.  model='gpt-oss:120b-cloud' created_at='2026-03-14T17:27:11.513197455Z' done=True done_reason='stop' total_duration=6961902941 load_duration=None prompt_eval_count=1892 prompt_eval_duration=None eval_count=933 eval_duration=None message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None) logprobs=None
+2026-03-14 12:30:59,112 - INFO - [*] Inicializando sistema de RAG Híbrido...
+2026-03-14 12:31:00,198 - INFO - [+] Base de datos local conectada, base_conocimiento (1242 documentos)
+2026-03-14 12:31:00,201 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 12:31:01,385 - INFO - Buscando respuestas con gpt-oss:120b-cloud, temperatura: 0.5 en la instancia: nube
+2026-03-14 12:31:08,235 - DEBUG - 
+Respuesta completa recibida de la nube.  model='gpt-oss:120b-cloud' created_at='2026-03-14T17:31:03.750034333Z' done=True done_reason='stop' total_duration=6439990207 load_duration=None prompt_eval_count=1892 prompt_eval_duration=None eval_count=817 eval_duration=None message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None) logprobs=None
+2026-03-14 12:32:26,850 - INFO - [*] Inicializando sistema de RAG Híbrido...
+2026-03-14 12:32:27,936 - INFO - [+] Base de datos local conectada, base_conocimiento (1242 documentos)
+2026-03-14 12:32:27,936 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 12:32:29,084 - INFO - Buscando respuestas con gpt-oss:120b-cloud, temperatura: 0.5 en la instancia: nube
+2026-03-14 12:32:38,237 - DEBUG - 
+Respuesta completa recibida de la nube.  model='gpt-oss:120b-cloud' created_at='2026-03-14T17:32:33.76034419Z' done=True done_reason='stop' total_duration=8864750461 load_duration=None prompt_eval_count=1892 prompt_eval_duration=None eval_count=1280 eval_duration=None message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None) logprobs=None
+2026-03-14 12:32:38,237 - INFO - Métricas: {'tokens_prompt': 1892, 'tokens_respuesta': 1280, 'tiempo_total_s': 8.864750461}
+2026-03-14 12:32:38,241 - INFO - tokens_por_segundo: 1.4439210732792675e-07
+2026-03-14 12:35:29,995 - INFO - [*] Inicializando sistema de RAG Híbrido...
+2026-03-14 12:35:31,095 - INFO - [+] Base de datos local conectada, base_conocimiento (1242 documentos)
+2026-03-14 12:35:31,103 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 12:35:32,266 - INFO - Pregunta del usuario: ¿para que sirve el salbutamol?
+2026-03-14 12:35:32,266 - INFO - Buscando respuestas con gpt-oss:120b-cloud, temperatura: 0.5 en la instancia: nube
+2026-03-14 12:35:40,902 - DEBUG - 
+Respuesta completa recibida de la nube.  model='gpt-oss:120b-cloud' created_at='2026-03-14T17:35:36.424723747Z' done=True done_reason='stop' total_duration=8178825193 load_duration=None prompt_eval_count=1892 prompt_eval_duration=None eval_count=1085 eval_duration=None message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None) logprobs=None
+2026-03-14 12:35:40,902 - INFO - Métricas: {'tokens_prompt': 1892, 'tokens_respuesta': 1085, 'tiempo_total_s': 8.178825193}
+2026-03-14 12:35:40,903 - INFO - tokens_por_segundo: 1.3265963929986148e-07
+2026-03-14 12:45:44,724 - INFO - [*] Inicializando sistema de RAG Híbrido...
+2026-03-14 12:45:45,826 - INFO - [+] Base de datos local conectada, base_conocimiento (1242 documentos)
+2026-03-14 12:47:15,662 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 12:47:15,673 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 12:47:20,785 - INFO - Pregunta del usuario: que precauciones se debe tener al inhalar salbutamol
+2026-03-14 12:47:20,785 - INFO - Buscando respuestas con gpt-oss:120b-cloud, temperatura: 0.5 en la instancia: nube
+2026-03-14 12:47:20,792 - INFO - Pregunta del usuario: que precauciones se debe tener al inhalar salbutamol
+2026-03-14 12:47:20,792 - INFO - Buscando respuestas con gpt-oss:120b-cloud, temperatura: 0.5 en la instancia: nube
+2026-03-14 12:47:45,895 - DEBUG - 
+Respuesta completa recibida de la nube.  model='gpt-oss:120b-cloud' created_at='2026-03-14T17:47:41.415779816Z' done=True done_reason='stop' total_duration=24708605951 load_duration=None prompt_eval_count=1661 prompt_eval_duration=None eval_count=3680 eval_duration=None message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None) logprobs=None
+2026-03-14 12:47:45,895 - INFO - Métricas: {'tokens_prompt': 1661, 'tokens_respuesta': 3680, 'tiempo_total_s': 24.708605951}
+2026-03-14 12:47:46,225 - DEBUG - 
+Respuesta completa recibida de la nube.  model='gpt-oss:120b-cloud' created_at='2026-03-14T17:47:41.734832514Z' done=True done_reason='stop' total_duration=25065628239 load_duration=None prompt_eval_count=1661 prompt_eval_duration=None eval_count=2984 eval_duration=None message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None) logprobs=None
+2026-03-14 12:47:46,226 - INFO - Métricas: {'tokens_prompt': 1661, 'tokens_respuesta': 2984, 'tiempo_total_s': 25.065628239}
+2026-03-14 12:57:38,953 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 12:57:38,963 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 12:57:44,882 - INFO - Pregunta del usuario: que precauciones se debe tener al inhalar salbutamol
+2026-03-14 12:57:44,883 - INFO - Buscando respuestas con deepseek-v3.1:671b-cloud, temperatura: 0.5 en la instancia: nube
+2026-03-14 12:57:44,889 - INFO - Pregunta del usuario: que precauciones se debe tener al inhalar salbutamol
+2026-03-14 12:57:44,889 - INFO - Buscando respuestas con gpt-oss:120b-cloud, temperatura: 0.5 en la instancia: nube
+2026-03-14 12:57:51,706 - DEBUG - 
+Respuesta completa recibida de la nube.  model='deepseek-v3.1:671b-cloud' created_at='2026-03-14T17:57:47.225963652Z' done=True done_reason='stop' total_duration=6249760030 load_duration=None prompt_eval_count=1778 prompt_eval_duration=None eval_count=283 eval_duration=None message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None) logprobs=None
+2026-03-14 12:57:51,706 - INFO - Métricas: {'tokens_prompt': 1778, 'tokens_respuesta': 283, 'tiempo_total_s': 6.24976003}
+2026-03-14 12:58:04,677 - DEBUG - 
+Respuesta completa recibida de la nube.  model='gpt-oss:120b-cloud' created_at='2026-03-14T17:58:00.130629419Z' done=True done_reason='stop' total_duration=19187974311 load_duration=None prompt_eval_count=1661 prompt_eval_duration=None eval_count=2034 eval_duration=None message=Message(role='assistant', content='', thinking=None, images=None, tool_name=None, tool_calls=None) logprobs=None
+2026-03-14 12:58:04,677 - INFO - Métricas: {'tokens_prompt': 1661, 'tokens_respuesta': 2034, 'tiempo_total_s': 19.187974311}
+2026-03-14 13:20:51,846 - INFO - [+] ChatRAGHibrido listo.
+2026-03-14 13:20:52,269 - INFO - [*] Inicializando ChromaDB...
+2026-03-14 13:20:52,386 - INFO - [+] Colección 'base_conocimiento' cargada (1242 documentos)
+2026-03-14 13:20:53,989 - INFO - [+] ChatRAGHibrido listo.
+2026-03-14 13:21:37,661 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 13:30:02,008 - INFO - [+] ChatRAGHibrido listo.
+2026-03-14 13:30:02,420 - INFO - [*] Inicializando ChromaDB...
+2026-03-14 13:30:02,560 - INFO - [+] Colección 'base_conocimiento' cargada (1242 documentos)
+2026-03-14 13:30:04,270 - INFO - [+] ChatRAGHibrido listo.
+2026-03-14 13:38:16,110 - INFO - [*] Inicializando ChromaDB...
+2026-03-14 13:38:16,266 - INFO - [+] Colección 'base_conocimiento' cargada (1242 documentos)
+2026-03-14 13:38:21,553 - INFO - [+] ChatRAGHibrido listo.
+2026-03-14 13:38:30,410 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 13:38:36,432 - INFO - Pregunta: que precauciones se debe tener al inhalar salbutamol
+2026-03-14 13:38:36,432 - INFO - Modelo: gpt-oss:120b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-14 13:40:31,804 - INFO - [*] Inicializando ChromaDB...
+2026-03-14 13:40:31,953 - INFO - [+] Colección 'base_conocimiento' cargada (1242 documentos)
+2026-03-14 13:40:33,760 - INFO - [+] ChatRAGHibrido listo.
+2026-03-14 13:40:47,886 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 13:40:49,146 - INFO - Pregunta: que precauciones se debe tener al inhalar salbutamol
+2026-03-14 13:40:49,148 - INFO - Modelo: gpt-oss:120b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-14 13:41:09,820 - INFO - Métricas: {'tokens_prompt': 1661, 'tokens_respuesta': 2115, 'tiempo_total_s': 17.34}
+2026-03-14 13:42:00,590 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 13:42:00,601 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 13:42:01,836 - INFO - Pregunta: que precauciones se debe tener al inhalar salbutamol
+2026-03-14 13:42:01,837 - INFO - Modelo: gpt-oss:120b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-14 13:42:01,931 - INFO - Pregunta: que precauciones se debe tener al inhalar salbutamol
+2026-03-14 13:42:01,931 - INFO - Modelo: gpt-oss:120b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-14 13:42:18,938 - INFO - Métricas: {'tokens_prompt': 1661, 'tokens_respuesta': 2608, 'tiempo_total_s': 15.59}
+2026-03-14 13:42:20,602 - INFO - Métricas: {'tokens_prompt': 1661, 'tokens_respuesta': 2807, 'tiempo_total_s': 18.43}
+2026-03-14 13:51:01,653 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 13:51:01,661 - INFO - Obteniendo respuesta del RAG con el modelo nomic-embed-text-v2-moe:latest
+2026-03-14 13:51:07,952 - INFO - Pregunta: Dame el nombre de 5 medicamentos que sirvan para la Infección urinaria
+2026-03-14 13:51:07,952 - INFO - Modelo: gpt-oss:120b-cloud | Temperatura: 0.5 | Instancia: nube
+2026-03-14 13:51:07,962 - INFO - Pregunta: Dame el nombre de 5 medicamentos que sirvan para la Infección urinaria
+2026-03-14 13:51:07,965 - INFO - Modelo: gpt-oss:120b-cloud | Temperatura: 0.5 | Instancia: nube
