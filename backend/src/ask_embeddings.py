@@ -173,18 +173,18 @@ class ChatRAGHibrido:
                 logger.info(f" **** Termina la inferencia con el modelo {inference_model}, tiempo total: {metricas['tiempo_total_s']}")
 
 
-# if __name__ == "__main__":
-#     # Prueba rápida del generador
-#     import asyncio
+if __name__ == "__main__":
+    # Prueba rápida del generador
+    import asyncio
+    db=create_chroma_client('base_conocimiento')
+    chat_rag = ChatRAGHibrido(db)
     
-#     chat_rag = ChatRAGHibrido(collection_name='base_conocimiento')
+    pregunta_test = "¿para que sirve el salbutamol?"
+    inference_model_test = MODEL_LLM_NUBE
+    instancia_test = 'nube'
     
-#     pregunta_test = "¿para que sirve el salbutamol?"
-#     inference_model_test = MODEL_LLM_NUBE
-#     instancia_test = 'nube'
+    async def prueba_stream():
+        async for fragmento in chat_rag.consultar_stream(pregunta_test, inference_model_test, instancia_test):
+            print(fragmento, end='', flush=True)
     
-#     async def prueba_stream():
-#         async for fragmento in chat_rag.consultar_stream(pregunta_test, inference_model_test, instancia_test):
-#             print(fragmento, end='', flush=True)
-    
-#     asyncio.run(prueba_stream())
+    asyncio.run(prueba_stream())

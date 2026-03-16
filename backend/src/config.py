@@ -1,6 +1,6 @@
 import os
 # Host Ollama
-HOST_OLLAMA_LOCAL = 'http://localhost:11434/'
+HOST_OLLAMA_LOCAL ='https://juania77-llama77x.hf.space/'    #'http://localhost:11434/'    # https://juania77-llama77x.hf.space/api/generate
 HOST_OLLAMA_NUBE = 'https://ollama.com'
 
 # Modelo de Embeddings
